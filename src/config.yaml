@@ -63,8 +63,8 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-    author: Theme PaperMod
+    description: "cguertin.dev - https://github.com/cguertin14/cguertin.dev"
+    author: Charles Guertin
     # author: ["Me", "You"] # multiple authors
 
     defaultTheme: auto
@@ -78,7 +78,7 @@ params:
     ShowCodeCopyButtons: true
     ShowToc: true
     # comments: false
-    images: ["papermod-cover.png"]
+    images: ["background.jpeg"]
 
     profileMode:
         enabled: false
