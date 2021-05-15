@@ -1,6 +1,6 @@
 baseURL: http://cguertin.dev/
 languageCode: en-ca
-title: cguertin.dev
+title: $ cguertin14
 paginate: 5
 theme: PaperMod
 
@@ -107,6 +107,8 @@ params:
           url: "https://twitter.com/cguertini"
         - name: linkedin
           url: "https://www.linkedin.com/in/charles-guertin-495b6520/"
+        - name: email
+          url: "mailto:charlesguertin@live.ca"
         - name: RsS
           url: "index.xml"
 
@@ -125,11 +127,11 @@ params:
     #         SiteVerificationTag: "XYZabc"
 
     assets:
-        favicon: "<link / abs url>"
-        favicon16x16: "<link / abs url>"
-        favicon32x32: "<link / abs url>"
-        apple_touch_icon: "<link / abs url>"
-        safari_pinned_tab: "<link / abs url>"
+        favicon: "/favicon.png"
+        favicon16x16: "/favicon.png"
+        favicon32x32: "/favicon.png"
+        apple_touch_icon: "/favicon.png"
+        safari_pinned_tab: "/favicon.png"
 
     # cover:
     #     hidden: true # hide everywhere but not in structured data
