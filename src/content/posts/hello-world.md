@@ -23,7 +23,7 @@ I built this website with a simple goal in mind: document my experiences & findi
 
 ## Where is this website running?
 
-Glad you ask. This blog actually runs on my personal homelab on a Kubernetes Cluster (which I'll describe in a future article). The source code can be found [here](https://github.com/cguertin14/cguertin.dev). I built this site using [Hugo](https://gohugo.io).
+Glad you asked. This blog actually runs on my personal homelab on a Kubernetes Cluster (which I'll describe in a future article). The source code can be found [here](https://github.com/cguertin14/cguertin.dev). I built this site using [Hugo](https://gohugo.io).
 
 
 ## Conclusion
