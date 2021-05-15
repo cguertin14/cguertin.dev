@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on cguertin.dev</title>
+    <link>http://cguertin.dev/categories/</link>
+    <description>Recent content in Categories on cguertin.dev</description>
+    <image>
+      <url>http://cguertin.dev/papermod-cover.png</url>
+      <link>http://cguertin.dev/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://cguertin.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>syntax</title>
+      <link>http://cguertin.dev/categories/syntax/</link>
+      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://cguertin.dev/categories/syntax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>http://cguertin.dev/categories/themes/</link>
+      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://cguertin.dev/categories/themes/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
