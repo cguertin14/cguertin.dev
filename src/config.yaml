@@ -132,11 +132,11 @@ params:
     #         SiteVerificationTag: "XYZabc"
 
     assets:
-        favicon: "/favicon.png"
-        favicon16x16: "/favicon.png"
-        favicon32x32: "/favicon.png"
-        apple_touch_icon: "/favicon.png"
-        safari_pinned_tab: "/favicon.png"
+        favicon: "https://cguertin.dev/favicon.png"
+        favicon16x16: "https://cguertin.dev/favicon.png"
+        favicon32x32: "https://cguertin.dev/favicon.png"
+        apple_touch_icon: "https://cguertin.dev/favicon.png"
+        safari_pinned_tab: "https://cguertin.dev/favicon.png"
 
     # cover:
     #     hidden: true # hide everywhere but not in structured data
