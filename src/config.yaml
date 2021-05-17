@@ -1,6 +1,6 @@
 baseURL: http://cguertin.dev/
 languageCode: en-ca
-title: $ cguertin14
+title: "[cguertin@sre:~]$"
 paginate: 5
 theme: PaperMod
 
@@ -23,17 +23,20 @@ languages:
         weight: 1
         menu:
             main:
-                - name: Archive
+                - name: archive
                   url: archives
                   weight: 5
-                - name: Search
+                - name: search
                   url: search/
                   weight: 10
-                - name: Tags
+                - name: tags
                   url: tags/
                   weight: 10
-                - name: Categories
+                - name: categories
                   url: categories/
+                  weight: 10
+                - name: about me
+                  url: about-me/
                   weight: 10
 
     # fr:
@@ -78,7 +81,7 @@ params:
     ShowCodeCopyButtons: true
     ShowToc: true
     # comments: false
-    images: ["background.jpeg"]
+    images: ["img/background.jpeg"]
 
     profileMode:
         enabled: false
@@ -98,7 +101,9 @@ params:
         Content: |
             Welcome to my personal website. I created it with the goal to 
             write about stuff I'm currently learning and experiencing. I hope you'll enjoy it as much
-            as I enjoyed building it.
+            as I enjoyed building it. 
+            
+            You can reach me and stay informed on what I do at the links below.
 
     socialIcons:
         - name: github
@@ -127,11 +132,11 @@ params:
     #         SiteVerificationTag: "XYZabc"
 
     assets:
-        favicon: "https://cguertin.dev/favicon.png"
-        favicon16x16: "https://cguertin.dev/favicon.png"
-        favicon32x32: "https://cguertin.dev/favicon.png"
-        apple_touch_icon: "https://cguertin.dev/favicon.png"
-        safari_pinned_tab: "https://cguertin.dev/favicon.png"
+        favicon: "/favicon.png"
+        favicon16x16: "/favicon.png"
+        favicon32x32: "/favicon.png"
+        apple_touch_icon: "/favicon.png"
+        safari_pinned_tab: "/favicon.png"
 
     # cover:
     #     hidden: true # hide everywhere but not in structured data
