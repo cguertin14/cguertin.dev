@@ -35,8 +35,8 @@ languages:
                 - name: categories
                   url: categories/
                   weight: 10
-                - name: about me
-                  url: about-me/
+                - name: about
+                  url: about/
                   weight: 10
 
     # fr:
