@@ -37,17 +37,17 @@ So, here are my initial specs:
 
 Here's what the cluster looked like fully assembled:
 
-<img loading="lazy" src="/img/blog/initial_pi_cluster.webp" alt="Initial Cluster" width="350">
+<img loading="lazy" src="/img/blog/initial_pi_cluster.webp" alt="Initial Cluster" width="300" height="535">
 <br/>
 
 The NAS with HDDs inside of it (which is used as an NFS server):
 
-<img loading="lazy" src="/img/blog/nas_with_hdds.webp" alt="NAS with HDDs" width="600">
+<img loading="lazy" src="/img/blog/nas_with_hdds.webp" alt="NAS with HDDs" width="700" height="525">
 <br/>
 
 Finally, the NAS and the Pi Cluster on my desk:
 
-<img loading="lazy" src="/img/blog/lab_on_desk.webp" alt="NAS with Cluster" width="600">
+<img loading="lazy" src="/img/blog/lab_on_desk.webp" alt="NAS with Cluster" width="700" height="525">
 
 ### Current Specs -- May 2021
 
@@ -70,12 +70,12 @@ Now, this is obviously a major upgrade from the first build. Some of main upgrad
 
 Let's see what it looks like. Below, you'll notice that one of the fan controllers sits in front of the rack to be able to control the fan speed on top of it. You'll also notice the Pi 2U rack mount with the 16-Port switch:
 
-<img loading="lazy" src="/img/blog/front_rack.webp" alt="Front of the rack" width="550">
+<img loading="lazy" src="/img/blog/front_rack.webp" alt="Front of the rack" width="550" height="733">
 <br/>
 
 A picture from another angle that shows the entire rack:
 
-<img loading="lazy" src="/img/blog/whole_rack.webp" alt="Top of the rack" width="550">
+<img loading="lazy" src="/img/blog/whole_rack.webp" alt="Top of the rack" width="550" height="733">
 
 ## Constant Work-In-Progress (WIP)
 
