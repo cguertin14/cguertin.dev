@@ -4,7 +4,7 @@ ShowToc: true
 TocOpen: false
 ---
 
-<img loading="lazy" src="/img/profile.png" alt="Profile pic" width="250" height="250">
+<img loading="lazy" src="/img/profile.png" alt="Profile pic" width="250">
 
 ## :ice_hockey_stick_and_puck: Charles Guertin
 
