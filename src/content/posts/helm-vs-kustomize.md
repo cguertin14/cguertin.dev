@@ -66,7 +66,7 @@ namespace: simple-demo
 
 commonLabels:
   app.kubernetes.io/name: simple-app
-	
+
 commonAnnotations:
   contact: 'company@email.com'
 ```
