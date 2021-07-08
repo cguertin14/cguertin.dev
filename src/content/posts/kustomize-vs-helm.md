@@ -115,7 +115,7 @@ As previously mentioned, the main goal of Kustomize is to provide reusable confi
         └── replica_count.yaml
 ```
 
-What's important to note from this file structure is the `base/`, `overlays/prod` and `overlays/development` folders. All reusable configuration files between each environments are defined in the `base/` folder. The interesting pattern here is that in each environment defined in the `overlays/` folder, they simply refer to the `base` folder in their own Kustomize configuration, without having to re-write each manifest, like so:
+What's important to note from this file structure is the `base/`, `overlays/prod` and `overlays/development` folders. All reusable configuration files between each environments are defined in the `base/` folder. The interesting pattern here is that in each environment defined in the `overlays/` folder, they simply refer to the `base` folder in their own Kustomize configuration, without having to rewrite each manifest, like so:
 
 ```yaml
 apiVersion: kustomize.config.k8s.io/v1beta1
@@ -132,7 +132,7 @@ patchesStrategicMerge:
 The above configuration reuses the base manifests and applies changes to the deployment. In this example, the cpu/replica counts vary according to their respective environment, which is why there are `patches` in the configuration file. The `patchesStrategicMerge` field allows the modification of resources in a very elegant way. For instance, the `cpu_count.yaml` file would probably look like this:
 
 ```yaml
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: my-name
@@ -191,7 +191,7 @@ And that's it. We could achieve the same result by exporting the filled Helm man
 
 ## Conclusion
 
-In this article, we've talked about Helm and Kustomize, two amazing tools that provide great features to the community. We've digged into both of them and have seen how to use them together to benefit from the respective features that they offer. Finally, we've seen how using Kustomize facilitates deploying manifests to different environments.
+In this article, we've talked about Helm and Kustomize, two amazing tools that provide great features to the community. We've digged into both of them and have seen how to use them together to benefit from the respective features they offer. Finally, we've seen how using Kustomize facilitates deploying manifests to different environments.
 
 Now, it is up to you to make up your mind on these tools and choose what suits you best. Hope I could help!
 
