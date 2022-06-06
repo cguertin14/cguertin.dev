@@ -7,7 +7,7 @@ RUN apk add --update --no-cache git && \
     apk upgrade
 
 ENV HUGO_VERSION=v0.86.0
-RUN go get -u github.com/gohugoio/hugo@${HUGO_VERSION}
+RUN go install github.com/gohugoio/hugo@${HUGO_VERSION}
 
 COPY src/ /src
 WORKDIR /src
