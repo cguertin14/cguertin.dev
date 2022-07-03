@@ -15,6 +15,6 @@ RUN hugo
 
 
 # Step 2 - runtime
-FROM nginx:1.21.6-alpine AS runtime
+FROM nginx:1.23.0-alpine AS runtime
 COPY --from=build /src/public/ /usr/share/nginx/html
 CMD ["nginx", "-g", "daemon off;"]
