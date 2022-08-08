@@ -1,5 +1,5 @@
 # Stage 1 - builder
-FROM golang:1.18.3-alpine AS build
+FROM golang:1.19.0-alpine AS build
 
 LABEL maintainer="Charles Guertin"
 
