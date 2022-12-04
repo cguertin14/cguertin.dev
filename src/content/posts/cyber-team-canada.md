@@ -48,7 +48,7 @@ Going into these competitions, it definitely felt like a surreal experience. Rep
 
 Participating in such high-end competitions allowed me to explore new tools, technologies and methodologies with respect to Cybersecurity, which in the end, made me feel like I picked up on a lot of useful knowledge. Imposter syndrome is something I initially struggled with when I came into the computer science field, and the feeling resurfaced during the *ECSC* and *ICC*. In the end, I was able to overcome this mental state and feel gratitude for being a part of this team.
 
-## Acknowledgements
+## Acknowledgments
 
 For both the *ECSC* and *ICC*,  I was lucky enough to be surrounded by incredibly talented teammates from all over Canada, including cities such as Montreal, Ottawa, Calgary, and Vancouver. A huge shoutout to [ENISA](https://www.enisa.europa.eu/), the sponsors and all the organizers for hosting both events, which were super well organised. That includes not only the competitions but also the logistics behind the restaurants, hotels and other necessities for all participants. Last but not least, a huge thanks to Team Canada's Tom Levasseur, Coach Dmitriy Beryoza and all the organizers from [CyberSci](https://cybersecuritychallenge.ca/), who put a ton of effort into taking us to both events while making sure we got everything we needed when we were there. All of this would not have been possible without them, so I am extremely grateful.
 
