@@ -12,7 +12,7 @@ Charles Guertin, from Montréal (Québec, Canada), graduate in Software Engineer
 
 ## :hammer_and_wrench: Work 
 
-I currently work at Ubisoft Montréal as an Online Programmer in the Site Reliability Engineering (SRE) division. I specialize in distributed systems (mostly Kubernetes), automation and programming involving Go -- my language of choice. In the past, I have worked for several companies, including a few startups, where I developed different sets of skills.
+I specialize in distributed systems (mostly Kubernetes), automation and programming involving Go -- my language of choice. In the past, I have worked for several companies, including big, medium and small ones, where I developed different sets of skills.
 
 ## :man-raising-hand: Volunteering
 
