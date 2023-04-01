@@ -23,4 +23,6 @@ When I arrived at ÉTS in September of 2018, I joined an open source student clu
 * [infra](https://github.com/cguertin14/infra) which is my personal homelab infrastructure running on [k3s](https://k3s.io)
 * [k3s-ansible-ha](https://github.com/cguertin14/k3s-ansible-ha) which is my homelab's Ansible playbook
 * [cguertin.dev](https://github.com/cguertin14/cguertin.dev) which is live at [cguertin.dev](https://cguertin.dev)
-* [k3supdater](https://github.com/cguertin14/k3supdater) which is an automation tool for a k3s Ansible playbook
+* [k3supdater](https://github.com/cguertin14/k3supdater) - automation tool for a k3s Ansible playbook written in Go
+* [lululemon-stockchecker](https://github.com/cguertin14/lululemon-stockchecker) - DDNS tool for Cloudflare written in Go
+* [ddns](https://github.com/cguertin14/ddns) - DDNS tool for Cloudflare written in Go

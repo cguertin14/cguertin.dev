@@ -1,12 +1,12 @@
 # Stage 1 - builder
-FROM golang:1.19.4-alpine AS build
+FROM golang:alpine AS build
 
 LABEL maintainer="Charles Guertin"
 
 RUN apk add --update --no-cache git && \
     apk upgrade
 
-ENV HUGO_VERSION=v0.101.0
+ENV HUGO_VERSION=v0.111.3
 RUN go install github.com/gohugoio/hugo@${HUGO_VERSION}
 
 COPY src/ /src
