@@ -6,7 +6,7 @@ LABEL maintainer="Charles Guertin"
 RUN apk add --update --no-cache git && \
     apk upgrade
 
-ENV HUGO_VERSION=v0.111.3
+ENV HUGO_VERSION=v0.121.1
 RUN go install github.com/gohugoio/hugo@${HUGO_VERSION}
 
 COPY src/ /src
