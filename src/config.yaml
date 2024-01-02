@@ -18,7 +18,8 @@ minify:
 languages:
     en:
         languageName: ":uk:"
-        languageAltTitle: "English"
+        params:
+          languageAltTitle: "English"
         weight: 1
         menu:
             main:

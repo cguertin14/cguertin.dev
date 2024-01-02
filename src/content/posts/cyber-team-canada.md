@@ -1,4 +1,3 @@
- 
 ---
 author: "Charles Guertin"
 title: "Cyber Team Canada 21-22"
