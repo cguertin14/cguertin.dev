@@ -76,7 +76,7 @@ In any company, there are legacy systems. Lightspeed is no exception. In my expe
 
 SLOs are part of the SRE DNA. I've found that implementing them at scale can be quite hard. Rallying support and excitement from Developers is not easy with regard to SLOs, their usefulness and especially justifying why devs should get paged in case of fast error budget burn rate or if an error budget runs out of capacity. Something I'd like to eventually do is read about strategies to effectively implement SLOs at scale, properly convince stakeholders of their usefulness and more. On that note, exploring [Google SRE's SLO resources](https://sre.google/resources/) would be a good start.
 
-## Foreword
+## Conclusion
 
 To conclude, this past year has been very exciting. Working in SRE has been my dream for years and I'm happy to now be working in my field. I'm learning everyday and being challenged again and again. New technologies, scale & complicated problems keep me passionate about my job and I'm very grateful to get the chance to work as an SRE.
 
