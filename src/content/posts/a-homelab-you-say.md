@@ -4,7 +4,7 @@ title: "A Homelab You Say?"
 date: "2021-05-23"
 description: "Sneak peek behind my Homelab's curtains"
 tags: ["homelab", "bare-metal", "kubernetes", "infra"]
-categories: ["welcome"]
+categories: ["homelab"]
 series: ["homelab"]
 ShowToc: true
 TocOpen: false
