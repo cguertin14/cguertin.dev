@@ -18,7 +18,7 @@ Over the course of the last year, I've worked as a Site Reliability Expert II (S
 * first time being an incident responder
 * first time working as a Reliability Engineer for a company.
 
-In the past, I have worked in DevOps and SRE, but never as an actual SRE. So, 2023 was a big year of learning in that sense for me. It was a year in which I strengthened my professional abilities by working with highly competent people: wether it was other SREs, Developers, Product Managers, etc.
+In the past, I have worked in DevOps and SRE, but never as an actual SRE. So, 2023 was a big year of learning in that sense for me. It was a year in which I strengthened my professional abilities by working with highly competent people: whether it was other SREs, Developers, Product Managers, etc.
 
 I have learned a lot and it's been fun as well. Let's dive deeper into what that actually means.
 
@@ -33,7 +33,7 @@ During an Eastern Canada CNCF meetup in October I spoke publicly in front of oth
 
 ### MySQL 8 Upgrades
 
-For one of our products, we have a fleet of 70+ MySQL DBs on AWS. Managing them is a challenge itself, but then we had a notice from AWS that v5.7 was coming to the end of its lifecycle and that we had to upgrade to v8. We were able to achieve this before the due date, in less than 5 months, with minimal downtime.
+For one of our products, we have a fleet of 70+ MySQL DBs on AWS. Managing them is a challenge itself. On top of that, earlier in 2023 AWS noticed us that v5.7 was being deprecated and that we had to upgrade to v8 ASAP. We were able to achieve this before the due date, in less than 5 months, with minimal downtime. Along with my team, we built some automation in Go to smoothen the whole thing.
 
 ### Karpenter Consolidation
 
@@ -52,7 +52,7 @@ In the end, this was also a new thing for me to do. I had never worked on reduci
 
 ### On-Call Duties
 
-When I first started as SRE at Lightspeed, it took only a few weeks (maybe 2 or 3 weeks) before I was on-call during working hours. Once on-call, it also did not take long before I was paged and eventually part of my first Incident. Weirdly enough, I think that being part of incidents forged me. It helped me learn about our systems, how they communicate with each other, and more. It helped me construct a mental map of our infrastructure and speeded up my learning.
+When I first started as SRE at Lightspeed, it took only a few weeks (maybe 2 or 3 weeks) before I was on-call during working hours. Once on-call, it also did not take long before I was paged and eventually part of my first Incident. Interestingly, I think that being part of incidents forged me. It helped me learn about our systems, how they communicate with each other, and more. It helped me construct a mental map of our infrastructure and speeded up my learning.
 
 I'll leave it at that for what went well this year, but I have to say that it was a really good one.
 
@@ -78,7 +78,7 @@ SLOs are part of the SRE DNA. I've found that implementing them at scale can be 
 
 ## Conclusion
 
-To conclude, this past year has been very exciting. Working in SRE has been my dream for years and I'm happy to now be working in my field. I'm learning everyday and being challenged again and again. New technologies, scale & complicated problems keep me passionate about my job and I'm very grateful to get the chance to work as an SRE.
+On a final note, this past year has been very exciting. Working in SRE has been my dream for years and I'm happy to now be working in my field. I'm learning everyday and being challenged again and again. New technologies, scale & complicated problems keep me passionate about my job and I'm very grateful to get the chance to work as an SRE.
 
 
 Thanks for reading.
