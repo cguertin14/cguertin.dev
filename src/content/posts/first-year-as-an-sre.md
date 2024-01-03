@@ -3,7 +3,6 @@ author: "Charles Guertin"
 title: "My First Year As An SRE"
 date: "2024-01-02"
 description: "How my first professional year as an SRE stacked up"
-draft: true # TODO: Remove this to publish.
 tags: ["sre", "reliability", "engineering", "career"]
 categories: ["welcome"]
 series: ["career"]
@@ -15,9 +14,9 @@ TocOpen: false
 
 Over the course of the last year, I've worked as a Site Reliability Expert II (SRE) at Lightspeed. It was my first year as a professional SRE, which is what I aimed to do while I was in University. It was a year filled with things I had never done before:
 
-* first time being in an on-call rotation
+* first time being part of an on-call rotation
 * first time being an incident responder
-* first time working as a Reliability Engineer for any company.
+* first time working as a Reliability Engineer for a company.
 
 In the past, I have worked in DevOps and SRE, but never as an actual SRE. So, 2023 was a big year of learning in that sense for me. It was a year in which I strengthened my professional abilities by working with highly competent people: wether it was other SREs, Developers, Product Managers, etc.
 
@@ -34,15 +33,15 @@ During an Eastern Canada CNCF meetup in October I spoke publicly in front of oth
 
 ### MySQL 8 Upgrades
 
-For one of our products, we have a fleet of 70+ MySQL DBs on AWS. Managing them is a challenge in itself, but then we had a notice from AWS that v5.7 was coming to the end of its lifecycle and that we had to upgrade to v8. We were able to achieve this before the due date, in less than 5 months.
+For one of our products, we have a fleet of 70+ MySQL DBs on AWS. Managing them is a challenge itself, but then we had a notice from AWS that v5.7 was coming to the end of its lifecycle and that we had to upgrade to v8. We were able to achieve this before the due date, in less than 5 months, with minimal downtime.
 
 ### Karpenter Consolidation
 
-We've had [Karpenter's Consolidation feature](https://karpenter.sh/preview/concepts/disruption/#consolidation) enabled for a while in lower environments, but not in Production. The reason for that is simple: most of our Prod microservices weren't properly sized, in terms of CPU & Memory. It took around 5 months of work along with Service Owners to properly size every single service running in our Prod cluster. We were able to automate this process by developing a tool written in Go that would query the Datadog API and use the Memory & CPU metrics and set them on the related deployments.
+We've had [Karpenter's Consolidation feature](https://karpenter.sh/preview/concepts/disruption/#consolidation) enabled for a while in lower environments, but not in Production. The reason for that is simple: most of our Prod microservices weren't properly sized, in terms of CPU & Memory. It took around 5 months of work along with Service Owners to properly size every single service running in our Prod cluster. We were able to automate this process by developing a tool written in Go that would query the Datadog API and use the Memory & CPU metrics and set them on the related deployments. This allowed us to scale up and down our cluster and save money.
 
 ### Cost Savings :moneybag:
 
-With all the financial instability in the world in the past year, talks of recession, layoffs and more, my team was tasked with reducing costs as much as possible, wherever possible in our infrastructure. Here are some examples of cost savings I was a part of:
+With all the financial instability in the world during the past year, talks of recession, layoffs and more, my team was tasked with reducing costs as much as possible, wherever possible in our infrastructure. Here are some examples of cost savings I was a part of:
 
 * 25% reduction in EC2 costs for our Kubernetes Prod cluster, thanks to Karpenter Consolidation
 * Using `gp3` storage across the board for all of our RDS instances / clusters over `gp2` or `io1`
@@ -71,11 +70,11 @@ Working in a big company often means working with big codebases, large infrastru
 
 ### Legacy Systems
 
-In any company, there are legacy systems. Lightspeed is no exception. In my experience, it can be challenging to work with those, especially when older technologies are involved, such as very old versions of a programming language, for instance. Or simply in-house solutions made before cloud-native ones were invented. I once read a great saying that said "Respect what came before" with regard to legacy systems and I often think about it when it comes to them.
+In any company, there are legacy systems. Lightspeed is no exception. In my experience, it can be challenging to work with those, especially when older technologies are involved, such as very old versions of a programming language, for instance. Or simply in-house solutions made before cloud-native ones were invented. I once read a great saying that said "Respect what came before" with regard to legacy systems and it's been my motto since then.
 
 ### Implementing SLOs
 
-SLOs are part of the SRE DNA. I've found that implementing them at scale can be quite hard. Rallying support and excitement from Developers is not easy with regard to SLOs, their usefulness and especially justifying why devs should get paged in case of fast error budget burn rate or if an error budget runs out of capacity. Something I'd like to eventually do is read about strategies to effectively implement SLOs at scale, properly convince stakeholders of their usefulness as well as convincing management. On that note, exploring [Google SRE's SLO resources](https://sre.google/resources/) be a good start.
+SLOs are part of the SRE DNA. I've found that implementing them at scale can be quite hard. Rallying support and excitement from Developers is not easy with regard to SLOs, their usefulness and especially justifying why devs should get paged in case of fast error budget burn rate or if an error budget runs out of capacity. Something I'd like to eventually do is read about strategies to effectively implement SLOs at scale, properly convince stakeholders of their usefulness and more. On that note, exploring [Google SRE's SLO resources](https://sre.google/resources/) would be a good start.
 
 ## Foreword
 
