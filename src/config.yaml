@@ -131,9 +131,6 @@ params:
     #    google:
     #        SiteVerificationTag: "XYZabc"
 
-    # Custom GA 4 variable 
-    googleAnalyticsID: G-SN17T8LEL9
-
     assets:
         favicon: "/favicon.png"
         favicon16x16: "/favicon.png"
@@ -195,3 +192,5 @@ services:
         disableInlineCSS: true
     twitter:
         disableInlineCSS: true
+    googleAnalytics: 
+        ID: G-SN17T8LEL9
