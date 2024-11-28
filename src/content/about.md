@@ -8,7 +8,7 @@ TocOpen: false
 
 ## Charles Guertin
 
-Charles Guertin, from Montréal (Québec, Canada), graduate in Software Engineering @ ÉTS Montréal (B. Eng). I speak fluently in both French :fr: and English :uk:. **Huge** Montréal Canadiens fan. I try to travel whenever I can. I also enjoy reading books of all kinds and listening to all genres of music on my turntable.
+Charles Guertin, from Montréal (Québec, Canada), graduate in Software Engineering @ ÉTS Montréal (B. Eng). I speak fluently in both French :fr: and English :uk:. Montréal Canadiens :ice_hockey: and New England Patriots :football: fan. I try to travel whenever I can. I also enjoy reading books of all kinds and listening to all genres of music on my turntable.
 
 ## Professional Experience
 

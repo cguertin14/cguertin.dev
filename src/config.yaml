@@ -12,51 +12,51 @@ buildExpired: false
 enableEmoji: true
 
 minify:
-    disableXML: true
-    minifyOutput: true
+  disableXML: true
+  minifyOutput: true
 
 languages:
-    en:
-        languageName: ":uk:"
-        params:
-          languageAltTitle: "English"
-        weight: 1
-        menu:
-            main:
-                - name: archive
-                  url: archives
-                  weight: 5
-                - name: search
-                  url: search/
-                  weight: 10
-                - name: tags
-                  url: tags/
-                  weight: 10
-                - name: categories
-                  url: categories/
-                  weight: 10
-                - name: about
-                  url: about/
-                  weight: 10
+  en:
+    languageName: ":uk:"
+    params:
+      languageAltTitle: "English"
+    weight: 1
+    menu:
+      main:
+        - name: archive
+          url: archives
+          weight: 5
+        - name: search
+          url: search/
+          weight: 10
+        - name: tags
+          url: tags/
+          weight: 10
+        - name: categories
+          url: categories/
+          weight: 10
+        - name: about
+          url: about/
+          weight: 10
 
-    # fr:
-    #     languageName: ":fr:"
-    #     languageAltTitle: Français
-    #     weight: 2
-    #     menu:
-    #         main:
-    #             - name: Archive
-    #               url: archives/
-    #               weight: 5
-    #             - name: Tags
-    #               url: tags
-    #               weight: 10
-    #             - name: Catégories
-    #               url: categories
-    #               weight: 10
-    #             - name: Recherche
-    #               url: series
-    #               weight: 10
+  # fr:
+  #     languageName: ":fr:"
+  #     languageAltTitle: Français
+  #     weight: 2
+  #     menu:
+  #         main:
+  #             - name: Archive
+  #               url: archives/
+  #               weight: 5
+  #             - name: Tags
+  #               url: tags
+  #               weight: 10
+  #             - name: Catégories
+  #               url: categories
+  #               weight: 10
+  #             - name: Recherche
+  #               url: series
+  #               weight: 10
 
 outputs:
     home:
@@ -65,130 +65,120 @@ outputs:
         - JSON
 
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "cguertin.dev - https://github.com/cguertin14/cguertin.dev"
-    author: Charles Guertin
-    # author: ["Me", "You"] # multiple authors
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "cguertin.dev - https://github.com/cguertin14/cguertin.dev"
+  author: Charles Guertin
+  # author: ["Me", "You"] # multiple authors
 
-    defaultTheme: auto
-    # disableThemeToggle: true
-    ShowShareButtons: true
-    ShowReadingTime: true
-    # disableSpecial1stPost: true
-    displayFullLangName: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
-    ShowCodeCopyButtons: true
-    ShowToc: true
-    # comments: false
-    images: ["img/background.jpeg"]
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  # comments: false
+  images: ["img/background.jpeg"]
 
-    profileMode:
-        enabled: false
-        title: PaperMod
-        imageUrl: "#"
-        imageTitle: my image
-        # imageWidth: 120
-        # imageHeight: 120
-        buttons:
-            - name: Archives
-              url: archives
-            - name: Tags
-              url: tags
+  plugins:
+    link: plugins/font-awesome/v6/brands.css
+    lazy: true
 
-    homeInfoParams:
-        Title: "cguertin.dev"
-        Content: |
-            Welcome to my personal website. I created it with the goal to 
-            write about stuff I'm currently learning and experiencing. I hope you'll enjoy it as much
-            as I enjoyed building it. 
-            
-            You can reach me and stay informed on what I do at the links below.
+  profileMode:
+    enabled: false
+    title: PaperMod
+    imageUrl: "#"
+    imageTitle: my image
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
 
-    socialIcons:
-        - name: github
-          url: "https://github.com/cguertin14"
-        - name: twitter
-          url: "https://twitter.com/cguertini"
-        - name: linkedin
-          url: "https://www.linkedin.com/in/charles-guertin-495b6520/"
-        - name: email
-          url: "mailto:charlesguertin@live.ca"
-        - name: RsS
-          url: "index.xml"
+  homeInfoParams:
+    Title: "cguertin.dev"
+    Content: |
+      Welcome to my personal website. I created it with the goal to 
+      write about stuff I'm currently learning and experiencing. I hope you'll enjoy it as much
+      as I enjoyed building it. 
+      
+      You can reach me and stay informed on what I do at the links below.
 
-    # editPost:
-    #     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-    #     Text: "Suggest Changes" # edit text
-    #     appendFilePath: true # to append file path to Edit link
+  socialIcons:
+    - name: github
+      url: "https://github.com/cguertin14"
+    - name: bluesky
+      url: "https://bsky.app/profile/cguertin.dev"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/charles-guertin-495b6520/"
+    - name: email
+      url: "mailto:charlesguertin@live.ca"
+    - name: RsS
+      url: "index.xml"
 
-    # label:
-    #     text: "Home"
-    #     icon: icon.png
-    #     iconHeight: 35
+  # label:
+  #     text: "Home"
+  #     icon: icon.png
+  #     iconHeight: 35
 
-    # analytics:
-    #    google:
-    #        SiteVerificationTag: "XYZabc"
+  # analytics:
+  #    google:
+  #        SiteVerificationTag: "XYZabc"
 
-    assets:
-        favicon: "/favicon.png"
-        favicon16x16: "/favicon.png"
-        favicon32x32: "/favicon.png"
-        apple_touch_icon: "/favicon.png"
-        safari_pinned_tab: "/favicon.png"
+  assets:
+    favicon: "/favicon.png"
+    favicon16x16: "/favicon.png"
+    favicon32x32: "/favicon.png"
+    apple_touch_icon: "/favicon.png"
+    safari_pinned_tab: "/favicon.png"
 
-    # cover:
-    #     hidden: true # hide everywhere but not in structured data
-    #     hiddenInList: true # hide on list pages and home
-    #     hiddenInSingle: true # hide on single page
+  # cover:
+  #     hidden: true # hide everywhere but not in structured data
+  #     hiddenInList: true # hide on list pages and home
+  #     hiddenInSingle: true # hide on single page
 
-    # fuseOpts:
-    #     isCaseSensitive: false
-    #     shouldSort: true
-    #     location: 0
-    #     distance: 1000
-    #     threshold: 0.4
-    #     minMatchCharLength: 0
-    #     keys: ["title", "permalink", "summary", "content"]
+  # fuseOpts:
+  #     isCaseSensitive: false
+  #     shouldSort: true
+  #     location: 0
+  #     distance: 1000
+  #     threshold: 0.4
+  #     minMatchCharLength: 0
+  #     keys: ["title", "permalink", "summary", "content"]
 
 taxonomies:
-    category: categories
-    tag: tags
-    series: series
+  category: categories
+  tag: tags
+  series: series
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         # noClasses: false
-#         style: monokai
+  goldmark:
+    renderer:
+      unsafe: true
 
 privacy:
-    vimeo:
-        disabled: false
-        simple: true
+  vimeo:
+    disabled: false
+    simple: true
 
-    twitter:
-        disabled: false
-        enableDNT: true
-        simple: true
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
 
-    instagram:
-        disabled: false
-        simple: true
+  instagram:
+    disabled: false
+    simple: true
 
-    youtube:
-        disabled: false
-        privacyEnhanced: true
+  youtube:
+    disabled: false
+    privacyEnhanced: true
 
 services:
-    instagram:
-        disableInlineCSS: true
-    twitter:
-        disableInlineCSS: true
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
