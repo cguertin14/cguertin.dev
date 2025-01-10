@@ -12,7 +12,7 @@ Charles Guertin, from Montréal (Québec, Canada), graduate in Software Engineer
 
 ## Professional Experience
 
-I currently work as a Site Reliability Expert (SRE) for the Lightspeed Commerce organization. I specialize in distributed systems (mostly Kubernetes), automation and programming involving Go -- my language of choice. In the past, I have worked for several companies, including big, medium and small ones, where I developed different sets of skills & tackled on challenging projects.
+I currently work as a Senior Site Reliability Expert (SRE) for the Lightspeed Commerce organization. I specialize in distributed systems (mostly Kubernetes), automation and programming involving Go -- my language of choice. In the past, I have worked for several companies, including big, medium and small ones, where I developed different sets of skills & tackled on challenging projects.
 
 ## Volunteering
 
