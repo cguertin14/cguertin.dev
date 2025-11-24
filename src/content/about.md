@@ -4,11 +4,11 @@ ShowToc: true
 TocOpen: false
 ---
 
-<img loading="lazy" src="/img/profile.webp" alt="Profile pic" width="450">
+<img loading="lazy" src="/img/profile.JPG" alt="Profile pic" width="800">
 
 ## Charles Guertin
 
-Charles Guertin, from Montréal (Québec, Canada), graduate in Software Engineering @ ÉTS Montréal (B. Eng). I speak fluently in both French :fr: and English :uk:. Montréal Canadiens :ice_hockey: and New England Patriots :football: fan. I try to travel whenever I can. I also enjoy reading books of all kinds and listening to all genres of music on my turntable.
+Charles Guertin, from Montréal (Québec, Canada), graduate in Software Engineering @ ÉTS Montréal (B. Eng). I speak fluently in both French :fr: and English :uk:. Montréal Canadiens :ice_hockey: and New England Patriots :football: fan. I try to travel whenever I can. I also enjoy reading books of all kinds and listening to all genres of music on my turntable. Lately, I've gotten into photography, which has been really fun.
 
 ## Professional Experience
 

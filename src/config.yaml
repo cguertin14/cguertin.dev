@@ -1,8 +1,9 @@
 baseURL: https://cguertin.dev/
 languageCode: en-ca
 title: "[cguertin@sre:~]$"
-paginate: 5
 theme: PaperMod
+pagination:
+  pagerSize: 5
 
 enableInlineShortcodes: true
 enableRobotsTXT: false
@@ -103,7 +104,9 @@ params:
     Content: |
       Welcome to my personal website. I created it with the goal to 
       write about stuff I'm currently learning and experiencing. I hope you'll enjoy it as much
-      as I enjoyed building it. 
+      as I enjoyed building it.
+
+      I'll also be posting my photography on this website, as I progress in my journey :smile:.
       
       You can reach me and stay informed on what I do at the links below.
 
@@ -164,7 +167,7 @@ privacy:
     disabled: false
     simple: true
 
-  twitter:
+  x:
     disabled: false
     enableDNT: true
     simple: true
@@ -180,5 +183,5 @@ privacy:
 services:
   instagram:
     disableInlineCSS: true
-  twitter:
+  x:
     disableInlineCSS: true
