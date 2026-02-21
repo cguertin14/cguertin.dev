@@ -3,7 +3,6 @@ author: "Charles Guertin"
 title: "Vertical Photography"
 date: "2026-02-20"
 description: "Starting a new hobby: photography"
-tags: ["photography", "vertical"]
 categories: ["personal"]
 series: ["photography"]
 ShowToc: true
