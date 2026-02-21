@@ -1,181 +1,214 @@
 baseURL: https://cguertin.dev/
 languageCode: en-ca
 title: "[cguertin@sre:~]$"
-theme: PaperMod
-pagination:
-  pagerSize: 5
+theme: blowfish
+defaultContentLanguage: en
 
 enableInlineShortcodes: true
-enableRobotsTXT: false
+enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
 enableEmoji: true
+summaryLength: 15
+
+pagination:
+  pagerSize: 5
 
 minify:
   disableXML: true
   minifyOutput: true
 
-languages:
-  en:
-    languageName: ":uk:"
-    params:
-      languageAltTitle: "English"
-    weight: 1
-    menu:
-      main:
-        - name: archive
-          url: archives
-          weight: 5
-        - name: search
-          url: search/
-          weight: 10
-        - name: tags
-          url: tags/
-          weight: 10
-        - name: categories
-          url: categories/
-          weight: 10
-        - name: about
-          url: about/
-          weight: 10
-
-  # fr:
-  #     languageName: ":fr:"
-  #     languageAltTitle: Français
-  #     weight: 2
-  #     menu:
-  #         main:
-  #             - name: Archive
-  #               url: archives/
-  #               weight: 5
-  #             - name: Tags
-  #               url: tags
-  #               weight: 10
-  #             - name: Catégories
-  #               url: categories
-  #               weight: 10
-  #             - name: Recherche
-  #               url: series
-  #               weight: 10
+taxonomies:
+  tag: tags
+  category: categories
+  author: authors
+  series: series
 
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON
-
-params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "cguertin.dev - https://github.com/cguertin14/cguertin.dev"
-  author: Charles Guertin
-  # author: ["Me", "You"] # multiple authors
-
-  defaultTheme: auto
-  # disableThemeToggle: true
-  ShowShareButtons: true
-  ShowReadingTime: true
-  # disableSpecial1stPost: true
-  displayFullLangName: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowToc: true
-  # comments: false
-  images: ["img/background.jpeg"]
-
-  plugins:
-    link: plugins/font-awesome/v6/brands.css
-    lazy: true
-
-  profileMode:
-    enabled: false
-    title: PaperMod
-    imageUrl: "#"
-    imageTitle: my image
-    buttons:
-      - name: Archives
-        url: archives
-      - name: Tags
-        url: tags
-
-  homeInfoParams:
-    Title: "cguertin.dev"
-    Content: |
-      Welcome to my personal website. I created it with the goal to 
-      write about stuff I'm currently learning and experiencing. I hope you'll enjoy it as much
-      as I enjoyed building it.
-
-      I'll also be posting my photography on this website, as I progress in my journey :smile:.
-      
-      You can reach me and stay informed on what I do at the links below.
-
-  socialIcons:
-    - name: github
-      url: "https://github.com/cguertin14"
-    - name: bluesky
-      url: "https://bsky.app/profile/cguertin.dev"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/charles-guertin-495b6520/"
-    - name: email
-      url: "mailto:charlesguertin@live.ca"
-    - name: RsS
-      url: "index.xml"
-
-  # label:
-  #     text: "Home"
-  #     icon: icon.png
-  #     iconHeight: 35
-
-  # analytics:
-  #    google:
-  #        SiteVerificationTag: "XYZabc"
-
-  assets:
-    favicon: "/favicon.png"
-    favicon16x16: "/favicon.png"
-    favicon32x32: "/favicon.png"
-    apple_touch_icon: "/favicon.png"
-    safari_pinned_tab: "/favicon.png"
-
-  # cover:
-  #     hidden: true # hide everywhere but not in structured data
-  #     hiddenInList: true # hide on list pages and home
-  #     hiddenInSingle: true # hide on single page
-
-  # fuseOpts:
-  #     isCaseSensitive: false
-  #     shouldSort: true
-  #     location: 0
-  #     distance: 1000
-  #     threshold: 0.4
-  #     minMatchCharLength: 0
-  #     keys: ["title", "permalink", "summary", "content"]
-
-taxonomies:
-  category: categories
-  tag: tags
-  series: series
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 markup:
   goldmark:
     renderer:
       unsafe: true
 
+languages:
+  en:
+    languageName: "English"
+    languageCode: en-ca
+    weight: 1
+    title: "[cguertin@sre:~]$"
+    params:
+      displayName: "EN"
+      isoCode: en
+      rtl: false
+      dateFormat: "January 2, 2006"
+      logo: "/favicon.png"
+      description: "cguertin.dev - Personal website and blog"
+      author:
+        name: Charles Guertin
+        email: charlesguertin@live.ca
+        headline: "Welcome to my personal website!\n\nSocials :arrow_down:"
+        bio: "I write about stuff I'm currently learning and experiencing."
+        links:
+          - github: "https://github.com/cguertin14"
+          - bluesky: "https://bsky.app/profile/cguertin.dev"
+          - linkedin: "https://www.linkedin.com/in/charles-guertin-495b6520/"
+          - email: "mailto:charlesguertin@live.ca"
+
+params:
+  colorScheme: blowfish
+  defaultAppearance: auto
+  autoSwitchAppearance: true
+
+  enableSearch: true
+  enableCodeCopy: true
+  enableStructuredBreadcrumbs: true
+  
+  mainSections:
+    - posts
+
+  defaultBackgroundImage: "/img/background.jpeg"
+  
+  highlightCurrentMenuArea: true
+  smartTOC: true
+  smartTOCHideUnfocusedChildren: false
+
+  fingerprintAlgorithm: sha256
+
+  favicon: "/favicon.png"
+
+  header:
+    layout: basic
+
+  footer:
+    showMenu: true
+    showCopyright: true
+    showThemeAttribution: true
+    showAppearanceSwitcher: true
+    showScrollToTop: true
+
+  homepage:
+    layout: custom
+    showRecent: true
+    showRecentItems: 5
+    showMoreLink: true
+    showMoreLinkDest: posts
+    cardView: true
+    cardViewScreenWidth: false
+
+  article:
+    layout: background
+    showDate: true
+    showViews: false
+    showLikes: false
+    showDateOnlyInArticle: false
+    showDateUpdated: false
+    showAuthor: true
+    showHero: false
+    heroStyle: thumbAndBackground
+    layoutBackgroundBlur: true
+    layoutBackgroundHeaderSpace: true
+    showBreadcrumbs: true
+    showDraftLabel: true
+    showEdit: false
+    editURL: "https://github.com/cguertin14/cguertin.dev/tree/main/src/content"
+    editAppendPath: true
+    seriesOpened: false
+    showHeadingAnchors: true
+    showPagination: true
+    invertPagination: false
+    showReadingTime: true
+    showTableOfContents: true
+    showRelatedContent: true
+    relatedContentLimit: 6
+    showTaxonomies: true
+    showAuthorsBadges: false
+    showWordCount: true
+    sharingLinks:
+      - linkedin
+      - bluesky
+      - reddit
+      - email
+    showZenMode: true
+
+  list:
+    showHero: false
+    showBreadcrumbs: true
+    showSummary: false
+    showViews: false
+    showLikes: false
+    showTableOfContents: false
+    showCards: true
+    orderByWeight: false
+    groupByYear: true
+    cardView: true
+    cardViewScreenWidth: false
+    constrainItemsWidth: false
+
+  sitemap:
+    excludedKinds: []
+
+  taxonomy:
+    showTermCount: true
+    showHero: false
+    heroStyle: background
+    showBreadcrumbs: true
+    showViews: false
+    showLikes: false
+    showTableOfContents: false
+    cardView: true
+
+  term:
+    showHero: false
+    heroStyle: background
+    showBreadcrumbs: true
+    showViews: false
+    showLikes: false
+    showTableOfContents: false
+    groupByYear: true
+    cardView: true
+    cardViewScreenWidth: false
+
+menus:
+  main:
+    - name: ~/about
+      pageRef: about
+      weight: 5
+    - name: ~/posts
+      pageRef: posts
+      weight: 10
+    - name: ~/categories
+      pageRef: categories
+      weight: 40
+    - identifier: github
+      pre: github
+      url: "https://github.com/cguertin14"
+      weight: 100
+
+  footer:
+    - name: Tags
+      pageRef: tags
+      weight: 10
+    - name: Categories
+      pageRef: categories
+      weight: 20
+
 privacy:
   vimeo:
     disabled: false
     simple: true
-
   x:
     disabled: false
     enableDNT: true
     simple: true
-
   instagram:
     disabled: false
     simple: true
-
   youtube:
     disabled: false
     privacyEnhanced: true

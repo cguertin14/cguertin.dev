@@ -3,7 +3,7 @@ author: "Charles Guertin"
 title: "Cyber Team Canada 21-22"
 date: "2022-06-19"
 description: "A recap of my time in Cyber Team Canada"
-tags: ["icc", "ecsc", "canada", "security", "ctf"]
+tags: ["ICC", "ECSC", "canada", "security", "CTF"]
 categories: ["security"]
 ShowToc: true
 TocOpen: false
@@ -15,19 +15,19 @@ Between September 2021 and June 2022, I have had the privilege to represent my h
 
 ## ECSC 2021
 
-<img loading="lazy" src="/img/blog/ecsc_logo.webp" alt="ECSC Logo" width="200">
+<img loading="lazy" src="/img/blog/ecsc_logo.webp" alt="ECSC Logo" width="200" class="rounded-lg">
 <br/>
 
 I represented Canada in the *European Cyber Security Challenge (ECSC)*, which took place from September 28th to October 1st of 2021. It was my first-ever international competition and it did not disappoint. The event was held in Prague, Czechia, which is a beautiful city in the heart of Europe. I had been in this city two years prior, so I knew my way around - my teammates and I had lots of fun sightseeing in this amazing medieval town.
 
 The competition itself followed the Jeopardy format. This format requires players to quickly solve challenges and find flags to be submitted as soon as possible. Basically, the faster you submit valid flags, the more points you get. We quickly found out that the difficulty level of this competition was **way** higher than what we had been exposed to back in Canada. Looking back at the event, it is safe to say that we could’ve had better results had we been more prepared. Nonetheless, we had lots of fun during the event and learned a lot about the different kinds of challenges we partook in.
 
-<img loading="lazy" src="/img/blog/ecsc_comp.webp" alt="ECSC competition" width="700">
+<img loading="lazy" src="/img/blog/ecsc_comp.webp" alt="ECSC competition" width="700" class="rounded-lg">
 <p style="font-size: 13px; color: gray; margin-top: 10px">Photo via ECSC</p>
 
 ## ICC 2022
 
-<img loading="lazy" src="/img/blog/icc_logo.webp" alt="ICC Logo" width="450">
+<img loading="lazy" src="/img/blog/icc_logo.webp" alt="ICC Logo" width="450" class="rounded-lg">
 <br/>
 
 I had the honor to represent Canada in the first-ever *International Cybersecurity Challenge (ICC)*, which took place from June 14th to 17th, 2022. The event was held in Athens, Greece, a country I had never been to before.
@@ -38,7 +38,7 @@ We hosted the logging stack on a cloud server to be able to forward logs to it c
 
 This trip is definitely one that I will not forget anytime soon.
 
-<img loading="lazy" src="/img/blog/icc_comp.webp" alt="ICC competition" width="700">
+<img loading="lazy" src="/img/blog/icc_comp.webp" alt="ICC competition" width="700" class="rounded-lg">
 <p style="font-size: 13px; color: gray; margin-top: 10px">Photo via @GaspareFerraro, Twitter</p>
 
 ## Imposter Syndrome

@@ -3,7 +3,7 @@ author: "Charles Guertin"
 title: "My First Year As An SRE"
 date: "2024-01-02"
 description: "How my first professional year as an SRE stacked up"
-tags: ["sre", "reliability", "engineering", "career"]
+tags: ["SRE", "reliability", "engineering", "career"]
 categories: ["career"]
 series: ["career"]
 ShowToc: true
