@@ -1,6 +1,6 @@
 ---
 author: "Charles Guertin"
-title: "Vertical Photography"
+title: "Getting into Photography"
 date: "2026-02-20"
 description: "Starting a new hobby: photography"
 categories: ["personal"]
