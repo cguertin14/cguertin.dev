@@ -1,0 +1,46 @@
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var images = document.querySelectorAll("img.blur-load");
+
+    images.forEach(function (img) {
+      var fullSrc = img.getAttribute("data-src");
+      if (fullSrc) {
+        img.src = fullSrc.replace("/original?", "/thumbnail?");
+      }
+    });
+
+    var observer = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            var img = entry.target;
+            var fullSrc = img.getAttribute("data-src");
+            if (fullSrc) {
+              var loader = new Image();
+              loader.onload = function () {
+                img.src = fullSrc;
+                img.classList.add("loaded");
+              };
+              loader.src = fullSrc;
+            }
+            observer.unobserve(img);
+          }
+        });
+      },
+      { rootMargin: "200px 0px" }
+    );
+
+    images.forEach(function (img) {
+      observer.observe(img);
+    });
+  });
+</script>
+<style>
+  img.blur-load {
+    filter: blur(4px);
+    transition: filter 0.5s ease;
+  }
+  img.blur-load.loaded {
+    filter: blur(0);
+  }
+</style>
