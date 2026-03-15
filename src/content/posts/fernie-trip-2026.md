@@ -3,7 +3,7 @@ author: "Charles Guertin"
 title: "Fernie 2026 Ski Trip"
 date: "2026-03-15"
 description: "Photos from my 2026 Fernie Ski Trip"
-categories: ["personal"]
+categories: ["photography"]
 series: ["photography"]
 ShowToc: true
 TocOpen: false

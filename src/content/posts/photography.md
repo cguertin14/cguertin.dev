@@ -3,7 +3,7 @@ author: "Charles Guertin"
 title: "Getting into Photography"
 date: "2026-02-20"
 description: "Starting a new hobby: photography"
-categories: ["personal"]
+categories: ["photography"]
 series: ["photography"]
 ShowToc: true
 TocOpen: false
