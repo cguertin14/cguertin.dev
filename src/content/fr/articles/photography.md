@@ -31,7 +31,7 @@ J'ai commencé la photographie mi-2025 quand j'ai acheté ma première caméra. 
     data-src="https://photos.cguertin.dev/api/assets/72a73a28-b0c6-41eb-b690-5ab87eed4bbd/original?key=o9fH_ad8fkIDQ2E38JRwR-_Vgufcw50PPXrUUNQ4Hcq5XwvRnCGEvdD3tu6Dg4DKmj4"
     data-zoom-src="https://photos.cguertin.dev/api/assets/72a73a28-b0c6-41eb-b690-5ab87eed4bbd/original?key=o9fH_ad8fkIDQ2E38JRwR-_Vgufcw50PPXrUUNQ4Hcq5XwvRnCGEvdD3tu6Dg4DKmj4"
     alt="Prague la nuit">
-  <figcaption>Une tour classique de Prague, la nuit.</figcaption>
+  <figcaption>Une tour classique de Prague, durant la nuit.</figcaption>
 </figure>
 
 ### Lunch
@@ -51,7 +51,7 @@ J'ai commencé la photographie mi-2025 quand j'ai acheté ma première caméra. 
     data-src="https://photos.cguertin.dev/api/assets/d7e6180d-402c-44bc-b93a-a666118a2262/original?key=FJNbghw-KYH3_ONiBPD1Kdt1qa_azN5OWA7juAa3pmSdqvFv8n9IZ-sq51lez738_GE"
     data-zoom-src="https://photos.cguertin.dev/api/assets/d7e6180d-402c-44bc-b93a-a666118a2262/original?key=FJNbghw-KYH3_ONiBPD1Kdt1qa_azN5OWA7juAa3pmSdqvFv8n9IZ-sq51lez738_GE"
     alt="Un monument montréalais">
-  <figcaption>Un icône montréalais pendant le jour.</figcaption>
+  <figcaption>Une icône montréalaise pendant le jour.</figcaption>
 </figure>
 
 ### Homme devant des arbres

@@ -58,7 +58,7 @@ La plupart des photos ici (sauf le portrait, pris à f/4) ont été prises à f/
     data-src="https://photos.cguertin.dev/api/assets/bc2e242f-55b1-4f97-8e71-9d3f05d0ce5a/original?key=WAtCG5yWaaeNfIMXo8alaOAu5wZ4RnUtExDZLpVSX-mYN6OT8EkrAOmi2Nk6Wnz5bfo"
     data-zoom-src="https://photos.cguertin.dev/api/assets/bc2e242f-55b1-4f97-8e71-9d3f05d0ce5a/original?key=WAtCG5yWaaeNfIMXo8alaOAu5wZ4RnUtExDZLpVSX-mYN6OT8EkrAOmi2Nk6Wnz5bfo"
     alt="Panorama">
-  <figcaption>Celle-ci était le fun à prendre, parce que c'est en fait ~5 photos empilées ensemble avec Lightroom.</figcaption>
+  <figcaption>Celle-ci était intéressante à prendre, parce que c'est en fait ~5 photos empilées ensemble avec Lightroom.</figcaption>
 </figure>
 
 ### Vallée
@@ -78,7 +78,7 @@ La plupart des photos ici (sauf le portrait, pris à f/4) ont été prises à f/
     data-src="https://photos.cguertin.dev/api/assets/cad903e6-dd5e-4305-b315-a254d68c1d52/original?key=H7QYljWsX9DLTFTe67ZMLpvHqgIwa6Hf8ma9QS-DnY3MUB7X2iLwTIUUzgQ-RlNLmgw"
     data-zoom-src="https://photos.cguertin.dev/api/assets/cad903e6-dd5e-4305-b315-a254d68c1d52/original?key=H7QYljWsX9DLTFTe67ZMLpvHqgIwa6Hf8ma9QS-DnY3MUB7X2iLwTIUUzgQ-RlNLmgw"
     alt="Enneigé">
-  <figcaption>Celle-ci donne froid, et je peux confirmer que ça l'était.</figcaption>
+  <figcaption>Celle-ci donne froid, et je peux confirmer que ce n'était pas chaud.</figcaption>
 </figure>
 
 ### Paysage d'après-ski
@@ -88,7 +88,7 @@ La plupart des photos ici (sauf le portrait, pris à f/4) ont été prises à f/
     data-src="https://photos.cguertin.dev/api/assets/51edc984-56ef-41af-b8d8-8825044aafe4/original?key=bR2TFGoRxFVTE69m6EyVTIpQKdbVOxXbhVCeTqjBq37Pp1f3lP7N0PaDIzROKtFfaPc"
     data-zoom-src="https://photos.cguertin.dev/api/assets/51edc984-56ef-41af-b8d8-8825044aafe4/original?key=bR2TFGoRxFVTE69m6EyVTIpQKdbVOxXbhVCeTqjBq37Pp1f3lP7N0PaDIzROKtFfaPc"
     alt="Paysage d'après-ski">
-  <figcaption>Prise pendant l'après-ski.</figcaption>
+  <figcaption>Vue d'après-ski.</figcaption>
 </figure>
 
 ---
@@ -114,7 +114,7 @@ J'ai aussi pris quelques photos en noir et blanc. Les voici.
     data-src="https://photos.cguertin.dev/api/assets/303a36ed-3d55-43a4-b1b2-1003096f76c5/original?key=mbt1Uy99xHJADbDyW_FpviRiZQ8p0kyMU-QHaFT2By5rQhRdyjrOADzzso3ZV9i8OE4"
     data-zoom-src="https://photos.cguertin.dev/api/assets/303a36ed-3d55-43a4-b1b2-1003096f76c5/original?key=mbt1Uy99xHJADbDyW_FpviRiZQ8p0kyMU-QHaFT2By5rQhRdyjrOADzzso3ZV9i8OE4"
     alt="Support à vélos">
-  <figcaption>Un beau support à vélos de Fernie.</figcaption>
+  <figcaption>Un support à vélo au centre-ville de Fernie.</figcaption>
 </figure>
 
 ---
