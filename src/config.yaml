@@ -40,8 +40,31 @@ languages:
   en:
     languageName: "English"
     languageCode: en-ca
+    contentDir: "content/en"
     weight: 1
     title: "[cguertin@sre:~]$"
+    menus:
+      main:
+        - name: ~/about
+          pageRef: about
+          weight: 5
+        - name: ~/posts
+          pageRef: posts
+          weight: 10
+        - name: ~/categories
+          pageRef: categories
+          weight: 40
+        - identifier: github
+          pre: github
+          url: "https://github.com/cguertin14"
+          weight: 100
+      footer:
+        - name: Tags
+          pageRef: tags
+          weight: 10
+        - name: Categories
+          pageRef: categories
+          weight: 20
     params:
       displayName: "EN"
       isoCode: en
@@ -54,6 +77,51 @@ languages:
         email: charlesguertin@live.ca
         headline: "Welcome to my personal website!\n\nSocials :arrow_down:"
         bio: "I write about stuff I'm currently learning and experiencing."
+        links:
+          - github: "https://github.com/cguertin14"
+          - bluesky: "https://bsky.app/profile/cguertin.dev"
+          - linkedin: "https://www.linkedin.com/in/charles-guertin-495b6520/"
+          - email: "mailto:charlesguertin@live.ca"
+  fr:
+    languageName: "Français"
+    languageCode: fr-ca
+    contentDir: "content/fr"
+    weight: 2
+    title: "[cguertin@sre:~]$"
+    menus:
+      main:
+        - name: "~/à-propos"
+          pageRef: about
+          weight: 5
+        - name: ~/articles
+          pageRef: articles
+          weight: 10
+        - name: "~/catégories"
+          pageRef: categories
+          weight: 40
+        - identifier: github
+          pre: github
+          url: "https://github.com/cguertin14"
+          weight: 100
+      footer:
+        - name: Étiquettes
+          pageRef: tags
+          weight: 10
+        - name: Catégories
+          pageRef: categories
+          weight: 20
+    params:
+      displayName: "FR"
+      isoCode: fr
+      rtl: false
+      dateFormat: "2 janvier 2006"
+      logo: "/favicon.png"
+      description: "cguertin.dev - Site web et blogue personnel"
+      author:
+        name: Charles Guertin
+        email: charlesguertin@live.ca
+        headline: "Bienvenue sur mon site web!\n\nRéseaux sociaux :arrow_down:"
+        bio: "J'écris à propos de ce que j'apprends et ce que je vis."
         links:
           - github: "https://github.com/cguertin14"
           - bluesky: "https://bsky.app/profile/cguertin.dev"
@@ -72,6 +140,7 @@ params:
   
   mainSections:
     - posts
+    - articles
 
   defaultBackgroundImage: "/img/background.jpeg"
   
@@ -174,30 +243,6 @@ params:
     groupByYear: true
     cardView: true
     cardViewScreenWidth: false
-
-menus:
-  main:
-    - name: ~/about
-      pageRef: about
-      weight: 5
-    - name: ~/posts
-      pageRef: posts
-      weight: 10
-    - name: ~/categories
-      pageRef: categories
-      weight: 40
-    - identifier: github
-      pre: github
-      url: "https://github.com/cguertin14"
-      weight: 100
-
-  footer:
-    - name: Tags
-      pageRef: tags
-      weight: 10
-    - name: Categories
-      pageRef: categories
-      weight: 20
 
 privacy:
   vimeo:

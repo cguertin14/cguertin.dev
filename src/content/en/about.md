@@ -17,7 +17,7 @@ showHero: false
 
 ## Charles Guertin
 
-I'm from Montréal, Québec, Canada. Graduate in Software Engineering @ ÉTS Montréal (B. Eng), I speak fluently in both French and English. I love to travel, spend quality time with my family, work on my homelab & fix stuff around the house. I also enjoy reading books of all kinds and listening to music on my turntable. Lately, I've gotten into photography, which has been really fun.
+I'm from Montréal, Québec, Canada. Graduate in Software Engineering @ ÉTS Montréal (B. Eng), I speak fluently in both French and English. I love to travel, spend quality time with my family, work on my homelab & fix stuff around the house. I also enjoy reading books of all kinds and listening to music on my turntable.
 
 ## Professional Experience
 
