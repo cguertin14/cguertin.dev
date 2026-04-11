@@ -64,6 +64,7 @@ params:
   colorScheme: blowfish
   defaultAppearance: auto
   autoSwitchAppearance: true
+  hotlinkFeatureImage: true
 
   enableSearch: true
   enableCodeCopy: true

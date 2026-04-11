@@ -11,7 +11,9 @@ showZenMode: false
 showHero: false
 ---
 
-<img loading="lazy" src="/img/profile.JPG" alt="Profile pic" width="800" class="rounded-lg">
+<figure class="photo-figure">
+  <img loading="lazy" src="/img/profile.JPG" alt="Profile pic" class="rounded-lg">
+</figure>
 
 ## Charles Guertin
 

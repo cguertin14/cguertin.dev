@@ -43,4 +43,48 @@
   img.blur-load.loaded {
     filter: blur(0);
   }
+
+  /* Hero banner: override theme default height */
+  .single_hero_round {
+    max-height: 65vh;
+  }
+
+  /* Photo figure styling */
+  .photo-figure {
+    margin: 2rem 0 3rem 0;
+  }
+  .photo-figure img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    transition: filter 0.5s ease, box-shadow 0.3s ease;
+  }
+  .photo-figure img:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+  }
+  .photo-figure figcaption {
+    margin-top: 0.75rem;
+    font-style: italic;
+    font-size: 0.9rem;
+    color: rgb(var(--color-neutral-500));
+    line-height: 1.5;
+  }
+  .dark .photo-figure figcaption {
+    color: rgb(var(--color-neutral-400));
+  }
+
+  /* Landscape figures: centered captions */
+  .photo-figure-landscape figcaption {
+    text-align: center;
+  }
+
+  /* Portrait figures: constrain height + centered captions */
+  .photo-figure-portrait img {
+    max-height: 150vh;
+    width: auto;
+  }
+  .photo-figure-portrait figcaption {
+    text-align: left;
+  }
 </style>
