@@ -117,6 +117,8 @@ languages:
       dateFormat: "2 janvier 2006"
       logo: "/favicon.png"
       description: "cguertin.dev - Site web et blogue personnel"
+      homepage:
+        showMoreLinkDest: articles
       author:
         name: Charles Guertin
         email: charlesguertin@live.ca
