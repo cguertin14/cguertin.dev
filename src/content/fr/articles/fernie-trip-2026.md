@@ -1,6 +1,7 @@
 ---
 author: "Charles Guertin"
 title: "Voyage de ski à Fernie 2026"
+translationKey: "fernie-trip-2026"
 slug: "voyage-ski-fernie-2026"
 date: "2026-03-15"
 description: "Photos de mon voyage de ski à Fernie en 2026"

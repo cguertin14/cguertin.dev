@@ -1,6 +1,7 @@
 ---
 author: "Charles Guertin"
 title: "Getting into Photography"
+translationKey: "photography"
 date: "2026-02-20"
 description: "Starting a new hobby: photography"
 categories: ["photography"]

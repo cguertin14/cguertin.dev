@@ -1,6 +1,7 @@
 ---
 author: "Charles Guertin"
 title: "Commencer la photographie"
+translationKey: "photography"
 slug: "photographie"
 date: "2026-02-20"
 description: "Un nouveau passe-temps : la photographie"
