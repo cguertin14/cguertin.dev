@@ -81,10 +81,16 @@
 
   /* Portrait figures: constrain height + centered captions */
   .photo-figure-portrait img {
-    height: 150vh;
-    max-height: 150vh;
-    width: auto;
+    height: auto;
+    width: 100%;
     max-width: 100%;
+  }
+  @media (min-width: 768px) {
+    .photo-figure-portrait img {
+      height: 150vh;
+      max-height: 150vh;
+      width: auto;
+    }
   }
   .photo-figure-portrait figcaption {
     text-align: left;
