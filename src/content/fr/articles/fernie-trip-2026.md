@@ -115,7 +115,7 @@ J'ai aussi pris quelques photos en noir et blanc. Les voici.
     data-src="https://photos.cguertin.dev/api/assets/303a36ed-3d55-43a4-b1b2-1003096f76c5/original?key=mbt1Uy99xHJADbDyW_FpviRiZQ8p0kyMU-QHaFT2By5rQhRdyjrOADzzso3ZV9i8OE4"
     data-zoom-src="https://photos.cguertin.dev/api/assets/303a36ed-3d55-43a4-b1b2-1003096f76c5/original?key=mbt1Uy99xHJADbDyW_FpviRiZQ8p0kyMU-QHaFT2By5rQhRdyjrOADzzso3ZV9i8OE4"
     alt="Support à vélos">
-  <figcaption>Un support à vélo au centre-ville de Fernie.</figcaption>
+  <figcaption>Un support à vélos au centre-ville de Fernie.</figcaption>
 </figure>
 
 ---

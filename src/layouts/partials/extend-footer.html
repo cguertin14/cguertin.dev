@@ -46,7 +46,7 @@
 
   /* Hero banner: override theme default height */
   .single_hero_round {
-    max-height: 65vh;
+    max-height: min(65vh, 550px);
   }
 
   /* Photo figure styling */
@@ -87,9 +87,15 @@
   }
   @media (min-width: 768px) {
     .photo-figure-portrait img {
-      height: 150vh;
-      max-height: 150vh;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+    .photo-figure-portrait img.loaded {
       width: auto;
+      max-width: 100%;
+      height: auto;
+      max-height: 150vh;
     }
   }
   .photo-figure-portrait figcaption {
