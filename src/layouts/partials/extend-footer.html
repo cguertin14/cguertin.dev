@@ -2,13 +2,7 @@
   document.addEventListener("DOMContentLoaded", function () {
     var images = document.querySelectorAll("img.blur-load");
 
-    images.forEach(function (img) {
-      var fullSrc = img.getAttribute("data-src");
-      if (fullSrc) {
-        img.src = fullSrc.replace("/original?", "/thumbnail?");
-      }
-    });
-
+    // Swap thumbnail for full-res image when it scrolls into view
     var observer = new IntersectionObserver(
       function (entries) {
         entries.forEach(function (entry) {
@@ -84,23 +78,15 @@
     text-align: center;
   }
 
-  /* Portrait figures: constrain height + centered captions */
+  /* Portrait figures: constrain width + left captions */
   .photo-figure-portrait img {
     height: auto;
     width: 100%;
     max-width: 100%;
   }
   @media (min-width: 768px) {
-    .photo-figure-portrait img {
-      width: 100%;
-      max-width: 100%;
-      height: auto;
-    }
-    .photo-figure-portrait img.loaded {
-      width: auto;
-      max-width: 100%;
-      height: auto;
-      max-height: 150vh;
+    .photo-figure-portrait {
+      max-width: 750px;
     }
   }
   .photo-figure-portrait figcaption {

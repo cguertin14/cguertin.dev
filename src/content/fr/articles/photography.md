@@ -29,6 +29,7 @@ J'ai commencé la photographie mi-2025 quand j'ai acheté ma première caméra. 
 
 <figure class="photo-figure photo-figure-portrait">
   <img class="blur-load rounded-lg"
+    src="https://photos.cguertin.dev/api/assets/72a73a28-b0c6-41eb-b690-5ab87eed4bbd/thumbnail?key=o9fH_ad8fkIDQ2E38JRwR-_Vgufcw50PPXrUUNQ4Hcq5XwvRnCGEvdD3tu6Dg4DKmj4"
     data-src="https://photos.cguertin.dev/api/assets/72a73a28-b0c6-41eb-b690-5ab87eed4bbd/original?key=o9fH_ad8fkIDQ2E38JRwR-_Vgufcw50PPXrUUNQ4Hcq5XwvRnCGEvdD3tu6Dg4DKmj4"
     data-zoom-src="https://photos.cguertin.dev/api/assets/72a73a28-b0c6-41eb-b690-5ab87eed4bbd/original?key=o9fH_ad8fkIDQ2E38JRwR-_Vgufcw50PPXrUUNQ4Hcq5XwvRnCGEvdD3tu6Dg4DKmj4"
     alt="Prague la nuit">
@@ -39,6 +40,7 @@ J'ai commencé la photographie mi-2025 quand j'ai acheté ma première caméra. 
 
 <figure class="photo-figure photo-figure-portrait">
   <img class="blur-load rounded-lg"
+    src="https://photos.cguertin.dev/api/assets/0f5453d8-bf0c-40d3-8444-4dcc340a9172/thumbnail?key=lSyHBHV-B_avICf5AIbDXX7mmvwHP1537aqp-0R_j_O222f9_u_smaHTn533O16wEYs"
     data-src="https://photos.cguertin.dev/api/assets/0f5453d8-bf0c-40d3-8444-4dcc340a9172/original?key=lSyHBHV-B_avICf5AIbDXX7mmvwHP1537aqp-0R_j_O222f9_u_smaHTn533O16wEYs"
     data-zoom-src="https://photos.cguertin.dev/api/assets/0f5453d8-bf0c-40d3-8444-4dcc340a9172/original?key=lSyHBHV-B_avICf5AIbDXX7mmvwHP1537aqp-0R_j_O222f9_u_smaHTn533O16wEYs"
     alt="Lunch">
@@ -49,6 +51,7 @@ J'ai commencé la photographie mi-2025 quand j'ai acheté ma première caméra. 
 
 <figure class="photo-figure photo-figure-portrait">
   <img class="blur-load rounded-lg"
+    src="https://photos.cguertin.dev/api/assets/d7e6180d-402c-44bc-b93a-a666118a2262/thumbnail?key=FJNbghw-KYH3_ONiBPD1Kdt1qa_azN5OWA7juAa3pmSdqvFv8n9IZ-sq51lez738_GE"
     data-src="https://photos.cguertin.dev/api/assets/d7e6180d-402c-44bc-b93a-a666118a2262/original?key=FJNbghw-KYH3_ONiBPD1Kdt1qa_azN5OWA7juAa3pmSdqvFv8n9IZ-sq51lez738_GE"
     data-zoom-src="https://photos.cguertin.dev/api/assets/d7e6180d-402c-44bc-b93a-a666118a2262/original?key=FJNbghw-KYH3_ONiBPD1Kdt1qa_azN5OWA7juAa3pmSdqvFv8n9IZ-sq51lez738_GE"
     alt="Un monument montréalais">
@@ -59,6 +62,7 @@ J'ai commencé la photographie mi-2025 quand j'ai acheté ma première caméra. 
 
 <figure class="photo-figure photo-figure-portrait">
   <img class="blur-load rounded-lg"
+    src="https://photos.cguertin.dev/api/assets/6e04480d-ad32-41e9-a2c5-de945659b874/thumbnail?key=kA1BbqoI-QZfsHBEyuvunmyXpy5rJksD2U8UsSIBwyIjMs9Tqo9Nl3ms4N_gIiGresM"
     data-src="https://photos.cguertin.dev/api/assets/6e04480d-ad32-41e9-a2c5-de945659b874/original?key=kA1BbqoI-QZfsHBEyuvunmyXpy5rJksD2U8UsSIBwyIjMs9Tqo9Nl3ms4N_gIiGresM"
     data-zoom-src="https://photos.cguertin.dev/api/assets/6e04480d-ad32-41e9-a2c5-de945659b874/original?key=kA1BbqoI-QZfsHBEyuvunmyXpy5rJksD2U8UsSIBwyIjMs9Tqo9Nl3ms4N_gIiGresM"
     alt="Homme devant des arbres">
@@ -69,6 +73,7 @@ J'ai commencé la photographie mi-2025 quand j'ai acheté ma première caméra. 
 
 <figure class="photo-figure photo-figure-portrait">
   <img class="blur-load rounded-lg"
+    src="https://photos.cguertin.dev/api/assets/74d0f6b4-4d3e-4308-adcf-3f2cd8046f20/thumbnail?key=PcGPtzH4-TbFyl168nRpU94baA-9kElanswLHc4voAoMjhlvBoywi_y3bkipOysLmJA"
     data-src="https://photos.cguertin.dev/api/assets/74d0f6b4-4d3e-4308-adcf-3f2cd8046f20/original?key=PcGPtzH4-TbFyl168nRpU94baA-9kElanswLHc4voAoMjhlvBoywi_y3bkipOysLmJA"
     data-zoom-src="https://photos.cguertin.dev/api/assets/74d0f6b4-4d3e-4308-adcf-3f2cd8046f20/original?key=PcGPtzH4-TbFyl168nRpU94baA-9kElanswLHc4voAoMjhlvBoywi_y3bkipOysLmJA"
     alt="Rue de Prague">
@@ -79,6 +84,7 @@ J'ai commencé la photographie mi-2025 quand j'ai acheté ma première caméra. 
 
 <figure class="photo-figure photo-figure-portrait">
   <img class="blur-load rounded-lg"
+    src="https://photos.cguertin.dev/api/assets/61385104-3bf9-4cde-bf4a-56a7c7e3689b/thumbnail?key=HeuIV7_DliCcVO6-Hhd1OFL49pzGm64fcHEoxdT1P1cxY_aWiRF7dqoxIYux8Ff0p64"
     data-src="https://photos.cguertin.dev/api/assets/61385104-3bf9-4cde-bf4a-56a7c7e3689b/original?key=HeuIV7_DliCcVO6-Hhd1OFL49pzGm64fcHEoxdT1P1cxY_aWiRF7dqoxIYux8Ff0p64"
     data-zoom-src="https://photos.cguertin.dev/api/assets/61385104-3bf9-4cde-bf4a-56a7c7e3689b/original?key=HeuIV7_DliCcVO6-Hhd1OFL49pzGm64fcHEoxdT1P1cxY_aWiRF7dqoxIYux8Ff0p64"
     alt="Le bureau">
