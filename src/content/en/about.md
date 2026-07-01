@@ -21,7 +21,7 @@ I'm from Montréal, Québec, Canada. Graduate in Software Engineering @ ÉTS Mon
 
 ## Professional Experience
 
-I currently work as a Senior Site Reliability Expert (SRE) for the Lightspeed Commerce organization. I specialize in distributed systems (mostly Kubernetes), automation and programming involving Go. In the past, I have worked for several companies, including big, medium and small ones, where I developed different sets of skills & where I tackled challenging projects.
+I currently work as a Staff Site Reliability Expert (SRE) for the Upserve organization. I specialize in distributed systems (mostly Kubernetes), automation and programming involving Go. In the past, I have worked for several companies, including big, medium and small ones, where I developed different sets of skills & where I tackled challenging projects.
 
 ## Personal Projects
 

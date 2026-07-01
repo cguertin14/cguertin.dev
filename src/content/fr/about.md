@@ -22,7 +22,7 @@ Je viens de Montréal, Québec, Canada. Diplômé en génie logiciel à l'ÉTS M
 
 ## Expérience professionnelle
 
-Je travaille présentement en tant qu'expert senior en fiabilité des sites (SRE) chez Lightspeed Commerce. Je me spécialise dans les systèmes distribués (principalement Kubernetes), l'automatisation et la programmation en Go. Dans le passé, j'ai travaillé pour plusieurs entreprises, grandes, moyennes et petites, où j'ai développé différentes compétences et où j'ai relevé des défis stimulants.
+Je travaille présentement en tant qu'expert staff en fiabilité des sites (SRE) chez Upserve. Je me spécialise dans les systèmes distribués (principalement Kubernetes), l'automatisation et la programmation en Go. Dans le passé, j'ai travaillé pour plusieurs entreprises, grandes, moyennes et petites, où j'ai développé différentes compétences et où j'ai relevé des défis stimulants.
 
 ## Projets personnels
 
